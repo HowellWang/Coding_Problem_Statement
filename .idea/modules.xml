@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tetration-oa.iml" filepath="$PROJECT_DIR$/.idea/modules/tetration-oa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tetration-oa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tetration-oa_main.iml" group="tetration-oa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tetration-oa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tetration-oa_test.iml" group="tetration-oa" />
+    </modules>
+  </component>
+</project>

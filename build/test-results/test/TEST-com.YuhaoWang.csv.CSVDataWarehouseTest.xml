@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.YuhaoWang.csv.CSVDataWarehouseTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-04-18T07:07:13" hostname="yuhaos-MBP.attlocal.net" time="0.005">
+  <properties/>
+  <testcase name="testInit1" classname="com.YuhaoWang.csv.CSVDataWarehouseTest" time="0.002"/>
+  <testcase name="testInit2" classname="com.YuhaoWang.csv.CSVDataWarehouseTest" time="0.0"/>
+  <testcase name="testZipcode1" classname="com.YuhaoWang.csv.CSVDataWarehouseTest" time="0.0"/>
+  <testcase name="testZipcode2" classname="com.YuhaoWang.csv.CSVDataWarehouseTest" time="0.0"/>
+  <testcase name="testWriteProtobuf1" classname="com.YuhaoWang.csv.CSVDataWarehouseTest" time="0.0"/>
+  <testcase name="testWriteProtobuf2" classname="com.YuhaoWang.csv.CSVDataWarehouseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,36 @@
+group 'com.github.howellwang'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.protobuf:protobuf-java:3.5.1'
+    compile 'org.json:json:20171018'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.5'
+    }
+}
+
+apply plugin: "com.google.protobuf"
+
+protobuf {
+
+    protoc {
+        // Download from repositories
+        artifact = 'com.google.protobuf:protoc:3.5.1'
+    }
+
+}

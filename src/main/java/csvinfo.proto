@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "proto";
+option java_outer_classname = "CsvInfo";
+
+message Csv {
+  string name = 1;
+  string city = 2;
+  string address = 3;
+  int32 age = 4;
+  string city1 = 5;
+  string zipcode = 6;
+}
